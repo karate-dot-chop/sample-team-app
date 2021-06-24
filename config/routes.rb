@@ -1,5 +1,17 @@
 Rails.application.routes.draw do
   get "/pages" => "pages#index"
   get "/buffalos" => "buffalos#index"
+  get "/images" => "images#index"
+  get "/dogs" => "dogs#index"
+  get "/pizza" => "pizzas#index"
+  get "/humans" => "humans#index"
+  get "/nanners" => "nanners#index"
+  get "/words_by_andrew" => "words_by_andrew#index"
+  get "/tests" => "tests#index"
+  get "/tacos" => "tacos#index"
+  get "/ballin" => "ballin#index"
+  get "/elephants" => "elephants#index"
+  get "/apples" => "apples#index"
+  get "/characters" => "characters#index"
   get "/bananas" => "bananas#index"
 end
