@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   get "/tacos" => "tacos#index"
   
 
+  get "/bananas" => "bananas#index"
 end
